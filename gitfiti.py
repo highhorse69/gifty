@@ -389,7 +389,7 @@ def main():
     if not ghe:
         git_url = 'git@github.com'
     else:
-        git_url = request_user_input('https://github.com/ ')
+        git_url = request_user_input('https://github.com/highhorse69 ')
 
     output = fake_it(image, start_date, username, repo, git_url, offset,
                      fake_it_multiplier)
